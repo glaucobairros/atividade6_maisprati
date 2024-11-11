@@ -1,0 +1,7 @@
+/* Estilos do botão hambúrguer */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}

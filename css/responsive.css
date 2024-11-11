@@ -1,0 +1,229 @@
+@media (max-width: 1024px) {
+
+    .logo img {
+        margin-right: 1rem;
+    }
+
+    .banner .left .features .rating {
+        margin-bottom: 15px;
+    }
+
+    .banner .right .checkmark{
+        min-width: 24px;
+    }
+
+    .banner .right .trailer iframe {
+        width: 90%;
+        height: 70%;
+    }
+
+       /* Ajuste do botão 'prev' */
+    .swiper .swiper-button-prev {
+        position: absolute;
+        left: 5px; /* Aproxima o botão do canto esquerdo */
+        top: 55%; 
+        transform: translateY(-50%); 
+        z-index: 10; 
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Ajuste do botão 'next' */
+    .swiper .swiper-button-next {
+        position: absolute;
+        right: 5px; /* Aproxima o botão do canto direito */
+        top: 55%; 
+        transform: translateY(-50%); 
+        z-index: 10;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .search:hover {
+        width: 250px;
+    }
+
+    /* Exibir o menu hambúrguer */
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* Menu ativo */
+    .nav.active {
+        display: flex;
+        position: absolute;
+        top: 95px; /* Ajuste para ficar abaixo da borda do header */
+        right: 0;
+        background: rgba(0, 0, 0, 0.8);
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .nav li {
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+
+    header {
+        padding: 20px 20px;
+    }
+
+    .logo img {
+        max-width: 50px;
+        max-height: 50px;
+        margin-right: 1rem;
+    }
+
+    .banner .left .features {
+        margin-left: 10px;
+    }
+
+    .banner .right h2 {
+        font-size: 2.5em;
+        margin-right: 1em;
+    }
+
+    .banner .right .trailer iframe {
+        width: 90%;
+        height: 90%;
+    }
+
+    .mario-title,
+    .pokemon-title,
+    .zelda-title {
+        font-size: 3.5em;
+        margin-left: 10px;
+    }
+
+    .social-icons {
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .logo img {
+        max-width: 50px;
+        max-height: 50px;
+        margin-right: 1rem;
+    }
+
+    .search:hover {
+        width: 200px;
+    }
+
+    .banner .left .features {
+        margin-left: 10px;
+    }
+
+    .banner .right h2 {
+        font-size: 2.5em;
+        margin-right: 1em;
+    }
+
+    .banner .right .trailer iframe {
+        width: 90%;
+        height: 90%;
+    }
+
+    .mario-title,
+    .pokemon-title,
+    .zelda-title {
+        font-size: 3.5em;
+        margin-left: 10px;
+    }
+
+    .social-icons {
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .logo img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+
+    .nav li a {
+        font-size: 12px;
+    }
+
+    .nav.active {
+        top: 85px;
+    }
+
+    .login .button {
+        font-size: 10px;
+    }
+
+    .search:hover {
+        width: 150px;
+    }
+
+    .search input::placeholder{
+        font-size: 10px;
+    }
+
+    .banner .left .features .content h4 {
+        font-size: 1.3em;
+        letter-spacing: 1px;
+    }
+
+    .banner .right h2 {
+        font-size: 1.5em;
+        margin-right: 3em;
+    }
+
+    .banner .right .trailer iframe {
+        width: 85%;
+        height: 80%;
+    }
+
+    .mario-title,
+    .pokemon-title,
+    .zelda-title {
+        font-size: 2em;
+        margin-left: 10px;
+        letter-spacing: 1px;
+    }
+
+    .social-icons a.icon {
+        font-size: 20px;
+    }
+
+    .swiper .swiper-button-prev, .swiper .swiper-button-next {
+        width: 50px;
+        height: 50px;
+    }
+
+    .banner .left .features .rating {
+        margin-bottom: 20px;
+    }
+
+    .banner .left .features .rating .score {
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    .add-circle-outline {
+        min-width: 50px;
+        min-height: 50px; 
+        font-size: 48px; 
+    }
+
+    .checkmark {
+        font-size: 24px;
+    }
+
+    .swiper .swiper-button-prev, .swiper .swiper-button-next {
+        top: 65%;
+    }
+
+}
